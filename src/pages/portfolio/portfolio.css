@@ -1,0 +1,54 @@
+
+.quote-card-view{
+    padding: 60px;
+    padding-right: 10px;
+    background-image: url(../../fon.jpg);
+    background-size: cover;
+}
+.violet{
+    color: rgb(67, 24, 105);
+}
+.tech-icons {
+    font-size: 90px ;
+    margin: 15px ;
+    padding: 10px ;
+    opacity: 0.93 ;
+    border: 2px solid rgba(98, 91, 101, 0.637);
+    vertical-align: middle !;
+    text-align: center ;
+    border-radius: 5px ;
+    display: table ;
+    box-shadow: 7px 5px 4px 3px rgb(69, 47, 89) ;
+    overflow: hidden;
+    transition: all 0.2s ease 0s ;
+  }
+  
+  @media (max-width: 767px) {
+    .tech-icons {
+      margin: 10px ;
+    }
+  }
+  
+  .tech-icons:hover {
+    transform: scale(1.05) ;
+    overflow: hidden ;
+    border: 2.2px solid rgb(67, 24, 105) ;
+  }
+  
+  .tech-icon-images {
+    padding: 20px ;
+    line-height: 1.6 ;
+  }
+  
+  .quote-card-view {
+    border: none ;
+    color: rgb(0, 0, 0);
+    background-color: transparent ;
+  }
+  
+  @media (max-width: 767px) {
+    .about-img {
+      padding-top: 0 ;
+    }
+  }
+  

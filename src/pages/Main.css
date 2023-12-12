@@ -1,0 +1,97 @@
+/* #tsparticles {
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+
+} */
+
+
+.home{
+  width: 100%;
+  height: 100%;
+
+}
+
+.home-section {
+  position: relative;
+  z-index: 0;
+  /* background-color: #ebe1e1; */
+  background-image: url(../fon.jpg);
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  padding-bottom: 30px;
+  padding-top: 10px;
+}
+.violet {
+  color: rgb(67, 24, 105);
+}
+
+.home-about-description {
+  color: rgb(18, 17, 17);
+  padding-top: 100px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.home-about-body {
+  padding-top: 8px;
+  font-size: 1.2em;
+  text-align: left;
+}
+
+.home-about-social {
+  text-align: center;
+  padding-top: 25px;
+  color: rgb(0, 0, 0);
+}
+
+.home-social-icons {
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  font-size: 1.2em;
+  line-height: 2em;
+  background: rgba(255, 255, 255, 0.972);
+  border-radius: 50%;
+  transition: 0.5s;
+}
+
+.home-social-icons::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background:  rgb(67, 24, 105);
+  transition: 0.5s;
+  transform: scale(0.9);
+  z-index: -1;
+}
+
+.home-social-icons:hover::before {
+  transform: scale(1.1);
+  box-shadow: 0 0 15px #252126;
+}
+
+.home-social-icons:hover {
+  color: #29262a;
+  box-shadow: 0 0 5px #2f2b30;
+  text-shadow: 0 0 2px  rgb(67, 24, 105);
+}
+
+.social-icons {
+  display: inline-block;
+  padding-right: 25px;
+  padding-left: 15px;
+}
+
+.icon-colour {
+  color: rgb(67, 24, 105);
+}

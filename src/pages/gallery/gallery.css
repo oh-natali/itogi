@@ -1,0 +1,47 @@
+.project-section {
+
+    padding-top: 10px;
+    background-image: url(../../fon.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.project-card {
+
+    height: 550px;
+    padding-top: 90px;
+
+}
+
+.project-card-view {
+    box-shadow: 0 4px 5px 9px rgba(8, 7, 7, 0.459);
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    transition: all 0.5s ease 0s;
+    height: 100%;
+    width: 300px;
+
+}
+
+.project-card-view:hover {
+    transform: scale(1.02);
+    overflow: hidden;
+    box-shadow: 0 9px 7px 9px rgba(75, 69, 69, 0.561);
+}
+
+.blog-card-view:hover {
+    transform: scale(1.02);
+    overflow: hidden;
+    box-shadow: 0 3px 3px 5px rgba(61, 41, 41, 0.65);
+}
+
+.card-img-top {
+    padding: 10px;
+
+}
+
+.project-heading {
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    padding-top: 0 auto;
+}
