@@ -11,7 +11,7 @@ function PortfolioNew() {
         <Card.Body>
           <blockquote className="blockquote mb-0">
             <p style={{ textAlign: "justify" }}>
-             Привет! <span className="purple">Я из Москвы , </span>
+             Привет! <span className="violet">Я из Москвы , </span>
               отучилась на психолога<span className="violet"> в 34 поменяла направление</span>
               <br />
               <br />
